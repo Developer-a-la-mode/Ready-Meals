@@ -1,8 +1,9 @@
 import './App.css';
+import Navigation from './Components/Layout/Navigation';
 
 function App() {
   return <div>
-    Hellow world
+    <Navigation />
   </div>
 }
 

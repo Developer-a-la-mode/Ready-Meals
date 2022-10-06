@@ -1,0 +1,36 @@
+.nav {
+    padding: 30px 10%;
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    width: 80px;
+}
+
+.nav__logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav__links {
+    list-style: none;
+    font-size: 30px;
+}
+
+.nav__link {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__link a {
+    text-decoration: none;
+    color: #edf0f1;
+    transition: all .3s;
+}
+
+.nav__link a:hover {
+    color: #0088a9;
+}
