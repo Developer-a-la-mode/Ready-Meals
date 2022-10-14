@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <header className={classes.nav}>
       <div className={classes.nav__logo}>
-        <img src={logo} alt="logo" />
+        <i class="fa-solid fa-bowl-food"></i>
       </div>
       <nav>
         <ul className={classes.nav__links}>
