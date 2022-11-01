@@ -1,5 +1,6 @@
 import classes from "./Navigation.module.css";
 import logo from "../../img/Logo.png";
+import NavigationCart from "./NavigationCart";
 
 const Navigation = () => {
   return (
@@ -21,9 +22,10 @@ const Navigation = () => {
         </ul>
       </nav>
 
-      <a href="#">
-        <button>Log On</button>
-      </a>
+      <div className={classes.nav__usericon}>
+        <a href="#"><i className={`fa-regular fa-user ${classes.nav__icon}`}></i></a>
+        <NavigationCart Aclass={classes.nav__icon} />
+      </div>
     </header>
   );
 };
