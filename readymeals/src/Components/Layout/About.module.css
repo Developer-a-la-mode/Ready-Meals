@@ -1,0 +1,23 @@
+.About {
+    height: 30vh;
+    background-color: #CFD8DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About__container {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.About__container h1 {
+    padding-bottom: 10px;
+}
+
+.About__container p {
+    text-align: center;
+}
