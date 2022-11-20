@@ -10,7 +10,6 @@ function App() {
     <Navigation />
     <Hero />
     <About />
-    <Card title={"title"} description={"description"} price={"$3.99"}/>
     <WeeklyMeals />
   </div>
 }
