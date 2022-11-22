@@ -7,15 +7,16 @@
     justify-content: center;
     margin: 20px;
     border-radius: 8px;
-    /* background-image: linear-gradient(to right bottom,rgba(0,150,136,0.15),rgba(207,216,220,0.15)), url(../../img/meal-1.jpg); */
+    background-image: linear-gradient(to right bottom,rgba(0,150,136,0.15),rgba(207,216,220,0.15)), url(../../img/meal-1.jpg);
     background-size: cover;
     background-position: 0 30%;
     transition: all .3s;
 }
 
 .card:hover {
-    /* background-image: linear-gradient(to right bottom,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(../../img/meal-1.jpg); */
+    background-image: linear-gradient(to right bottom,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(../../img/meal-1.jpg);
     color: #0088a9;
+    cursor: pointer;
 }
 
 .card__content {
