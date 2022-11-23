@@ -3,9 +3,9 @@ import classes from './MealItemForm.module.css';
 import Input from '../UI/Input';
 
 const MealItemForm = props => {
-    return <form>
+    return <form className={classes.mealItemForm}>
         <Input label="Amount" input={{id:'Amount', type:'number', min: '1', max: '8', step: '1', defaultValue: '1'}}/> 
-        <button><i class="fa-solid fa-square-plus"></i></button>
+        <button className={classes.mealItemForm__button}>+ Add</button>
     </form>
 };
 

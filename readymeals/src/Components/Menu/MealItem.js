@@ -11,8 +11,6 @@ const MealItem = (props) => {
                 <p>{props.description}</p>
                 <h2>{props.price}</h2>
                 <MealItemForm />
-                <i class="fa-solid fa-square-plus"></i>
-                <i class="fa-solid fa-square-minus"></i>
             </div>
         </div>
     )
