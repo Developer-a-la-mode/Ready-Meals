@@ -2,7 +2,7 @@ import classes from "./Navigation.module.css";
 import logo from "../../img/Logo.png";
 import NavigationCart from "./NavigationCart";
 
-const Navigation = () => {
+const Navigation = (props) => {
   return (
     <header className={classes.nav}>
       <div className={classes.nav__logo}>
@@ -24,7 +24,7 @@ const Navigation = () => {
 
       <div className={classes.nav__usericon}>
         <a href="#"><i className={`fa-regular fa-user ${classes.nav__icon}`}></i></a>
-        <NavigationCart Aclass={classes.nav__icon} />
+        <NavigationCart Aclass={classes.nav__icon} onClick={props.onShowCart} />
       </div>
     </header>
   );
