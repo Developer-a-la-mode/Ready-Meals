@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import Navigation from './Components/Layout/Navigation';
 import Hero from './Components/Layout/Hero';

@@ -1,5 +1,4 @@
 import classes from "./Navigation.module.css";
-import logo from "../../img/Logo.png";
 import NavigationCart from "./NavigationCart";
 
 const Navigation = (props) => {
