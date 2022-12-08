@@ -10,6 +10,8 @@ const NavigationCart = (props) => {
     return curNumber + item
   }, 0);
 
+  console.log(numberOfCartItems);
+
   return (
     <button className={classes.button} onClick={props.onClick}>
       <i className={`fa-solid fa-cart-shopping ${props.Aclass}`}></i>
